@@ -56,11 +56,24 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
-        "resizable": true,
+        "resizable": false,
         "title": "mic-bot-ai",
-        "width": 800
+        "width": 280,
+        "height": 354,
+        "visible": false,
+        "hiddenTitle": true,
+        "alwaysOnTop": true,
+        "closable": false,
+        "minimizable": false,
+        "decorations": false,
+        "focus": false,
+        "transparent": true
       }
-    ]
+    ],
+    "systemTray": {
+      "iconPath": "icons/icon.png",
+      "iconAsTemplate": true,
+      "menuOnLeftClick": false
+    }
   }
 }
